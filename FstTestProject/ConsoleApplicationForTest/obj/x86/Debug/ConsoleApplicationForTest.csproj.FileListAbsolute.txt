@@ -1,0 +1,5 @@
+C:\Home\Developments\LeeProjects\UnitTests\FstTestProject\ConsoleApplicationForTest\bin\Debug\ConsoleApplicationForTest.exe
+C:\Home\Developments\LeeProjects\UnitTests\FstTestProject\ConsoleApplicationForTest\bin\Debug\ConsoleApplicationForTest.pdb
+C:\Home\Developments\LeeProjects\UnitTests\FstTestProject\ConsoleApplicationForTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Home\Developments\LeeProjects\UnitTests\FstTestProject\ConsoleApplicationForTest\obj\x86\Debug\ConsoleApplicationForTest.exe
+C:\Home\Developments\LeeProjects\UnitTests\FstTestProject\ConsoleApplicationForTest\obj\x86\Debug\ConsoleApplicationForTest.pdb

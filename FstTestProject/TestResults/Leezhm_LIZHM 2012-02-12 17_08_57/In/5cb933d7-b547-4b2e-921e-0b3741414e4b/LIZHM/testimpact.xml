@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AddIntegerTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="cb1e2ce3-5349-d217-0564-9949320d2700">
+  <Signatures>
+    <Signature>65A7ADA6EB17F24040402C41123F7D64FB2F7800</Signature>
+    <Signature>08203BE2A9B45F51E14AFE46ABAE56AEBDFE7FF1</Signature>
+    <Signature>E295796E1024B1ABFB958249DEE2616BAE6B5310</Signature>
+    <Signature>0AB6750E2FDE62F97FBE17A5500F36F6C3B713DC</Signature>
+    <Signature>D2C13AFB9ABC68D0A2AD3A6775BFBE6E7D7E8FFF</Signature>
+    <Signature>4B6FE5CD9E106037A4EE87A5440E4ABCA9EC006B</Signature>
+    <Signature>65E441C1F1150E1B1F08A5D3BABD9DAE0275F7AD</Signature>
+  </Signatures>
+</Test>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CalculateTotalPricesTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="405d028a-d0e2-7eac-e964-2b5400dd658b">
+  <Signatures>
+    <Signature>65A7ADA6EB17F24040402C41123F7D64FB2F7800</Signature>
+    <Signature>5131CA26F84B26EBDFD06A50DFDCBF90825CEEAD</Signature>
+    <Signature>E295796E1024B1ABFB958249DEE2616BAE6B5310</Signature>
+    <Signature>3D79693569D7E07F069A63220240598A1B244593</Signature>
+    <Signature>0AB6750E2FDE62F97FBE17A5500F36F6C3B713DC</Signature>
+    <Signature>AE1395EC9837227F18CEE1BB856375B12B9E6CDE</Signature>
+    <Signature>4B6FE5CD9E106037A4EE87A5440E4ABCA9EC006B</Signature>
+    <Signature>0E9FF2E0E107534361863AA5D96C72A678B76A41</Signature>
+    <Signature>65E441C1F1150E1B1F08A5D3BABD9DAE0275F7AD</Signature>
+  </Signatures>
+</Test>

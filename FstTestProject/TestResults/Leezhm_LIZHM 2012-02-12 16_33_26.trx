@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c082eecd-2138-4afb-add2-a17493ab5633" name="Leezhm@LIZHM 2012-02-12 16:33:26" runUser="LIZHM\Leezhm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e20c97ec-7bd5-4c59-988e-e0b0fbbbf4c0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Leezhm_LIZHM 2012-02-12 16_33_26">
+      <DeploymentItem filename="C:\Home\Developments\LeeProjects\UnitTests\FstTestProject\ConsoleApplicationForTest\bin\Debug\ConsoleApplicationForTest.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+        <DataCollectors>
+          <DataCollector uri="datacollector://Microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-12T16:33:26.0468750+08:00" queuing="2012-02-12T16:33:27.1777344+08:00" start="2012-02-12T16:33:35.4023438+08:00" finish="2012-02-12T16:33:41.0273438+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\home\developments\leeprojects\unittests\fsttestproject\fsttestproject\bin\debug\fsttestproject.dll" id="7f11e6f7-64b5-ff62-6341-2a4b60fb85e2">
+      <Execution id="39304fc6-96d7-48a5-8c3d-02fc26c7a36e" />
+      <TestMethod codeBase="C:/Home/Developments/LeeProjects/UnitTests/FstTestProject/FstTestProject/bin/Debug/FstTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FstTestProject.UnitTest1, FstTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7f11e6f7-64b5-ff62-6341-2a4b60fb85e2" executionId="39304fc6-96d7-48a5-8c3d-02fc26c7a36e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="39304fc6-96d7-48a5-8c3d-02fc26c7a36e" testId="7f11e6f7-64b5-ff62-6341-2a4b60fb85e2" testName="TestMethod1" computerName="LIZHM" duration="00:00:00.0248920" startTime="2012-02-12T16:33:35.5566407+08:00" endTime="2012-02-12T16:33:36.5205078+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39304fc6-96d7-48a5-8c3d-02fc26c7a36e">
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2012-02-12T16:33:36.5000000+08:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="LIZHM" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TestMethod1" IsTestCase="false" TestCaseId="0" AutomatedTestId="7f11e6f7-64b5-ff62-6341-2a4b60fb85e2">
+  <Signatures>
+    <Signature>AA0702D9BDCCDCCD972C48C448C2C871C5360717</Signature>
+    <Signature>25FC5CE727F368333B19BA6793203EC15A46CBFF</Signature>
+    <Signature>A6DC4D32A375C44E83A565460DBF3A3BDE7F9564</Signature>
+    <Signature>D2C13AFB9ABC68D0A2AD3A6775BFBE6E7D7E8FFF</Signature>
+    <Signature>4B6FE5CD9E106037A4EE87A5440E4ABCA9EC006B</Signature>
+    <Signature>A1A25BA0300F9E4DAF404F4EEE9CC16CF2EE9666</Signature>
+  </Signatures>
+</Test>

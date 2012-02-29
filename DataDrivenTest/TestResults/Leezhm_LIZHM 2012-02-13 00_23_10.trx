@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8e92990d-92d1-4206-afe6-68ea5a8ecb8f" name="Leezhm@LIZHM 2012-02-13 00:23:10" runUser="LIZHM\Leezhm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="973a0182-0110-4c02-8e67-8b74979ff1e1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Leezhm_LIZHM 2012-02-13 00_23_10">
+      <DeploymentItem filename="C:\Home\Developments\LeeProjects\UnitTests\DataDrivenTest\DataDrivenTest\bin\Debug\DataDrivenTest.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-13T00:23:10.0273437+08:00" queuing="2012-02-13T00:23:10.1201172+08:00" start="2012-02-13T00:23:10.1318359+08:00" finish="2012-02-13T00:23:10.7187500+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="5" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="LIZHM" outcome="Warning" timestamp="2012-02-13T00:23:10.1201172+08:00">
+        <Text>Deployment is currently disabled. The deployment item 'DataDrivenTestProject\testData.csv' on test 'DataDrivenTestProject.ProgramTest.CalculateTotalPricesTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CalculateTotalPricesTest" storage="c:\home\developments\leeprojects\unittests\datadriventest\datadriventestproject\bin\debug\datadriventestproject.dll" id="b68b321a-f5e4-68b7-2090-85243f51972d">
+      <DeploymentItems>
+        <DeploymentItem filename="DataDrivenTestProject\testData.csv" />
+      </DeploymentItems>
+      <Execution id="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" />
+      <TestMethod codeBase="C:/Home/Developments/LeeProjects/UnitTests/DataDrivenTest/DataDrivenTestProject/bin/Debug/DataDrivenTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DataDrivenTestProject.ProgramTest, DataDrivenTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateTotalPricesTest" />
+      <DataSource connectionString="|DataDirectory|\testData.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testData#csv" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b68b321a-f5e4-68b7-2090-85243f51972d" executionId="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" testId="b68b321a-f5e4-68b7-2090-85243f51972d" testName="CalculateTotalPricesTest" computerName="LIZHM" duration="00:00:00.3204000" startTime="2012-02-13T00:23:10.1337890+08:00" endTime="2012-02-13T00:23:10.7011719+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" resultType="DataDrivenTest">
+      <Counters error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="5" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="1848a5e0-ce01-44f0-a1e8-d9b28fc6ab9c" parentExecutionId="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" testId="b68b321a-f5e4-68b7-2090-85243f51972d" testName="CalculateTotalPricesTest" computerName="LIZHM" duration="00:00:00.0137252" startTime="2012-02-13T00:23:10.5341797+08:00" endTime="2012-02-13T00:23:10.5498047+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="99ef70cc-3a3c-40dc-9d6e-4f5d0d9cfbb7" parentExecutionId="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" testId="b68b321a-f5e4-68b7-2090-85243f51972d" testName="CalculateTotalPricesTest" computerName="LIZHM" duration="00:00:00.1404684" startTime="2012-02-13T00:23:10.5498047+08:00" endTime="2012-02-13T00:23:10.6904297+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;7.2&gt;. Actual:&lt;7.2&gt;. </Message>
+              <StackTrace>   at DataDrivenTestProject.ProgramTest.CalculateTotalPricesTest() in C:\Home\Developments\LeeProjects\UnitTests\DataDrivenTest\DataDrivenTestProject\ProgramTest.cs:line 90
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="0f3477d7-2215-48ef-83ed-d8bfb06d2565" parentExecutionId="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" testId="b68b321a-f5e4-68b7-2090-85243f51972d" testName="CalculateTotalPricesTest" computerName="LIZHM" duration="00:00:00.0000405" startTime="2012-02-13T00:23:10.6904297+08:00" endTime="2012-02-13T00:23:10.6904297+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="9441b04b-bc0a-448f-9430-23fe2caba482" parentExecutionId="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" testId="b68b321a-f5e4-68b7-2090-85243f51972d" testName="CalculateTotalPricesTest" computerName="LIZHM" duration="00:00:00.0000132" startTime="2012-02-13T00:23:10.6904297+08:00" endTime="2012-02-13T00:23:10.6904297+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="a13809aa-a8d9-4f41-a89c-61a3e41d4428" parentExecutionId="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" testId="b68b321a-f5e4-68b7-2090-85243f51972d" testName="CalculateTotalPricesTest" computerName="LIZHM" duration="00:00:00.0013238" startTime="2012-02-13T00:23:10.6904297+08:00" endTime="2012-02-13T00:23:10.6914062+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;44.8&gt;. Actual:&lt;44.8&gt;. </Message>
+              <StackTrace>   at DataDrivenTestProject.ProgramTest.CalculateTotalPricesTest() in C:\Home\Developments\LeeProjects\UnitTests\DataDrivenTest\DataDrivenTestProject\ProgramTest.cs:line 90
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="dce1f20f-78a7-483a-9447-a1832b9c1215" parentExecutionId="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" testId="b68b321a-f5e4-68b7-2090-85243f51972d" testName="CalculateTotalPricesTest" computerName="LIZHM" duration="00:00:00.0000192" startTime="2012-02-13T00:23:10.6914062+08:00" endTime="2012-02-13T00:23:10.6914062+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" dataRowInfo="5" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="b053e781-b042-4f98-a031-76f68175a8dc" parentExecutionId="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" testId="b68b321a-f5e4-68b7-2090-85243f51972d" testName="CalculateTotalPricesTest" computerName="LIZHM" duration="00:00:00.0000191" startTime="2012-02-13T00:23:10.6923828+08:00" endTime="2012-02-13T00:23:10.6923828+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61acec47-3aeb-4bcd-b5c4-ab1991bd6985" dataRowInfo="6" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

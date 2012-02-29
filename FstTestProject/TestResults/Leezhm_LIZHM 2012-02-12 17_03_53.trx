@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ebd9647c-2bda-4d27-b412-422fe5da078c" name="Leezhm@LIZHM 2012-02-12 17:03:53" runUser="LIZHM\Leezhm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e20c97ec-7bd5-4c59-988e-e0b0fbbbf4c0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="Leezhm_LIZHM 2012-02-12 17_03_53">
+      <DeploymentItem filename="C:\Home\Developments\LeeProjects\UnitTests\FstTestProject\ConsoleApplicationForTest\bin\Debug\ConsoleApplicationForTest.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 8.0" MaxConnections="6">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+        <DataCollectors>
+          <DataCollector uri="datacollector://Microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/CodeCoverage/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.CodeCoverage.CoveragePlugIn, Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Code Coverage">
+            <Configuration>
+              <CodeCoverage xmlns="">
+                <Regular>
+                  <CodeCoverageItem binaryFile="C:\Home\Developments\LeeProjects\UnitTests\FstTestProject\ConsoleApplicationForTest\bin\Debug\ConsoleApplicationForTest.exe" pdbFile="C:\Home\Developments\LeeProjects\UnitTests\FstTestProject\ConsoleApplicationForTest\bin\Debug\ConsoleApplicationForTest.instr.pdb" instrumentInPlace="true" />
+                  <CodeCoverageItem binaryFile="C:\Home\Developments\LeeProjects\UnitTests\FstTestProject\FstTestProject\bin\Debug\FstTestProject.dll" pdbFile="C:\Home\Developments\LeeProjects\UnitTests\FstTestProject\FstTestProject\bin\Debug\FstTestProject.instr.pdb" instrumentInPlace="true" />
+                </Regular>
+              </CodeCoverage>
+            </Configuration>
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-12T17:03:53.4365234+08:00" queuing="2012-02-12T17:03:53.9345703+08:00" start="2012-02-12T17:04:01.0751953+08:00" finish="2012-02-12T17:04:08.4785156+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <ResultFiles>
+      <ResultFile path="LIZHM\data.coverage" />
+    </ResultFiles>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CalculateTotalPricesTest" storage="c:\home\developments\leeprojects\unittests\fsttestproject\fsttestproject\bin\debug\fsttestproject.dll" id="405d028a-d0e2-7eac-e964-2b5400dd658b">
+      <Execution id="420d4695-8cbc-4cc2-9f54-87352ae4e749" />
+      <TestMethod codeBase="C:/Home/Developments/LeeProjects/UnitTests/FstTestProject/FstTestProject/bin/Debug/FstTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FstTestProject.TestUnitTest, FstTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateTotalPricesTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\home\developments\leeprojects\unittests\fsttestproject\fsttestproject\bin\debug\fsttestproject.dll" id="7f11e6f7-64b5-ff62-6341-2a4b60fb85e2">
+      <Execution id="ca790c79-bd1d-4621-bd6b-fe0ab14f74fd" />
+      <TestMethod codeBase="C:/Home/Developments/LeeProjects/UnitTests/FstTestProject/FstTestProject/bin/Debug/FstTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FstTestProject.UnitTest1, FstTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="405d028a-d0e2-7eac-e964-2b5400dd658b" executionId="420d4695-8cbc-4cc2-9f54-87352ae4e749" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f11e6f7-64b5-ff62-6341-2a4b60fb85e2" executionId="ca790c79-bd1d-4621-bd6b-fe0ab14f74fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="420d4695-8cbc-4cc2-9f54-87352ae4e749" testId="405d028a-d0e2-7eac-e964-2b5400dd658b" testName="CalculateTotalPricesTest" computerName="LIZHM" duration="00:00:00.0345463" startTime="2012-02-12T17:04:01.2509765+08:00" endTime="2012-02-12T17:04:02.2343750+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="420d4695-8cbc-4cc2-9f54-87352ae4e749">
+      <CollectorDataEntries>
+        <Collector agentName="LIZHM" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="LIZHM\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="ca790c79-bd1d-4621-bd6b-fe0ab14f74fd" testId="7f11e6f7-64b5-ff62-6341-2a4b60fb85e2" testName="TestMethod1" computerName="LIZHM" duration="00:00:00.0013748" startTime="2012-02-12T17:04:02.2392578+08:00" endTime="2012-02-12T17:04:02.2626953+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca790c79-bd1d-4621-bd6b-fe0ab14f74fd">
+      <CollectorDataEntries>
+        <Collector agentName="LIZHM" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="LIZHM\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+  </Results>
+</TestRun>
