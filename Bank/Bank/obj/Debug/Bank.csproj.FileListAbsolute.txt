@@ -1,0 +1,5 @@
+C:\Home\Developments\LeeProjects\UtSerials\Bank\Bank\bin\Debug\Bank.dll
+C:\Home\Developments\LeeProjects\UtSerials\Bank\Bank\bin\Debug\Bank.pdb
+C:\Home\Developments\LeeProjects\UtSerials\Bank\Bank\obj\Debug\ResolveAssemblyReference.cache
+C:\Home\Developments\LeeProjects\UtSerials\Bank\Bank\obj\Debug\Bank.dll
+C:\Home\Developments\LeeProjects\UtSerials\Bank\Bank\obj\Debug\Bank.pdb

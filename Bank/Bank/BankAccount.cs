@@ -54,7 +54,7 @@ namespace Bank
                 throw new ArgumentOutOfRangeException("Warnning : Amount out of range");
             }
 
-            totalBalance += amount;
+            totalBalance -= amount;
         }
 
         public void Credit(double amount)

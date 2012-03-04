@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FreezeAccountTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="630222e1-aa0e-e9d3-a26d-0f68ad7914fe">
+  <Signatures>
+    <Signature>7A6028A5FE599CE3CD0A6F7B240AEE29D07290D6</Signature>
+    <Signature>2D66A98171851F6A0297332C34F6B15147B3E92E</Signature>
+    <Signature>37C6E1ABD9E789881390EAC25D1978F2017A948F</Signature>
+    <Signature>E877A3088FD90E6E353E2A9BEA83DB5A66786ADB</Signature>
+    <Signature>AC9B8D088DFCF97993A7C54E14B1E00691BC8A76</Signature>
+    <Signature>23EC06B669B714798F9C5BDF9B7EEC140737C1E2</Signature>
+    <Signature>5F74BDDB44B55AE5E53ECAF8F575FD1D27FF847B</Signature>
+    <Signature>5C218FE8C97C35D7BCD26CE970FCD67CF2923450</Signature>
+    <Signature>2153DBB99F3A420BE0113BB8E803C0A9AA27587A</Signature>
+    <Signature>42EF76FB8AB60A760460F0DC14F9D6929A600F58</Signature>
+  </Signatures>
+</Test>

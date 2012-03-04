@@ -1,0 +1,9 @@
+C:\Home\Developments\LeeProjects\UtSerials\Bank\BankTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Home\Developments\LeeProjects\UtSerials\Bank\BankTest\bin\Debug\BankTest.dll
+C:\Home\Developments\LeeProjects\UtSerials\Bank\BankTest\bin\Debug\BankTest.pdb
+C:\Home\Developments\LeeProjects\UtSerials\Bank\BankTest\bin\Debug\Bank.dll
+C:\Home\Developments\LeeProjects\UtSerials\Bank\BankTest\bin\Debug\Bank.pdb
+C:\Home\Developments\LeeProjects\UtSerials\Bank\BankTest\obj\Debug\BankTest.dll
+C:\Home\Developments\LeeProjects\UtSerials\Bank\BankTest\obj\Debug\BankTest.pdb
+C:\Home\Developments\LeeProjects\UtSerials\Bank\BankTest\bin\Debug\Bank_Accessor.dll
+C:\Home\Developments\LeeProjects\UtSerials\Bank\BankTest\bin\Debug\Bank_Accessor.pdb
